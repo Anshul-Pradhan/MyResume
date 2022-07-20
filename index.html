@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Resume</title>
+	<script src="https://use.fontawesome.com/d3fd4a098d.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'/>
+                
+</head>
+<body>
+	<div class="container">
+		<nav class="top">
+			<div class="left">
+				<span class="a">Anshul Pradhan</span>
+			</div>
+			<div class="right">
+				<ul class="list">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#skills">Skills</a>
+					</li>
+					<li>
+						<a href="#Contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="intro">
+			<div class="text">
+				<h1 class="hi">Hi! I am Anshul Pradhan</h1>
+				<br>
+
+			<h3 class="full-stack"><script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+			<lord-icon
+			    src="https://cdn.lordicon.com/jvucoldz.json"
+			    trigger="loop"
+			    colors="primary:#121331,secondary:#08a88a"
+			    style="width:30px;height:30px">
+			</lord-icon>
+			Full Stack Developer</h3>
+			<br>
+			<p class="full-stack">Looking for an entry level job as a <b>Full Stack Developer</b>. Have good practice in working with both Front-End as well as Back-End Development.</p>
+			<br>
+			<div class="scroll">
+				<a href="#about">
+				<button><i class="fa fa-angle-double-down" aria-hidden="true"></i> Scroll Down</button>
+			</a>
+			</div>
+			</div>
+
+			<div class="dev">
+			<img src="sde.png" width="400" height="300">
+			</div>
+		</div>
+		<div class="about" id="about">
+			<h1 style="text-shadow: 3px 10px 6px lightgrey;">About</h1>
+			<div class="about-content">
+				<div class="left"> 
+					<img src="pic.png" width="400" height="300">
+					
+				</div>
+				<div class="right">
+					<h3>I am a Full Stack Developer.</h3><br>
+					<p>I love to code and have done many projects which includes Front-End Development as well as Back-End Development.</p>
+					<p>I am looking for a Dynamic company for whom I can become an asset as well as Enhancing my skills</p><br>
+					<button class="dwnbtn"><a href="21-FCA-MCA-009 ANSHUL.pdf" download><i class="fa fa-cloud-download" aria-hidden="true" style="margin-right: 3px;"></i> Download Resume </a></button>
+				</div>
+			</div>
+		</div>
+		<div class="skills" id="skills">
+			<h1 style="text-shadow: 3px 10px 6px lightgrey;">Skills</h1>
+			<div class="skill-content">
+				<article>
+					<h1>Skills</h1> 
+					<div id="counter1" class="counter1">0</div>
+						<script>
+				        const myInterval = setInterval(update, 150);
+				        var count =0;
+				        function update()
+				        {
+				            count=count+1;
+				            document.getElementById("counter1").innerHTML=count;
+				            if(count>6)
+				            {
+				                clearInterval(myInterval);
+				            }
+				        }
+	    				</script>
+				</article>
+				<article>
+					<h1>Projects</h1>
+				<div id="counter2" class="counter2">0</div>
+					<script>
+				        const myInterval1 = setInterval(update, 180);
+				        var count1 =0;
+				        function update()
+				        {
+				            count1=count1+1;
+				            document.getElementById("counter2").innerHTML=count;
+				            if(count1>3)
+				            {
+				                clearInterval(myInterval1);
+				            }
+				        }
+	    			</script>
+				</article>
+				<article class="tile">
+					<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+						<lord-icon
+						    src="https://cdn.lordicon.com/buqfvmsj.json"
+						    trigger="loop"
+						    colors="primary:#121331,secondary:#30c9e8"
+						    style="width:150px;height:150px">
+						</lord-icon>
+					<h1>Front-End Developer</h1>
+					<img src="html.png" title="HTML">
+					<img src="css.png" title="CSS">
+					<img src="javascript.png" title="JavaScript">
+				</article>
+				<article class="tile">
+					<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+						<lord-icon
+						    src="https://cdn.lordicon.com/kkwzhxjj.json"
+						    trigger="loop"
+						    colors="primary:#121331,secondary:#30c9e8"
+						    style="width:150px;height:150px">
+						</lord-icon>
+					<h1>Back-End Developer</h1>
+					<img src="java.png" title="Java">
+					<img src="jdbc.png" title="Java DataBase Connectivity">
+					<img src="php.png" title="PHP">
+					<img src="database.png" title="DBMS">
+				</article>
+			</div>
+		</div>
+		<div id="contact" class="contact">
+			<h1>Contact</h1>
+			
+		</div>
+	</div>
+
+</body>
+</html>
